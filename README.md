@@ -1,4 +1,4 @@
-# 🚀 AI Resume Generator
+# AI Resume Generator
 
 An AI-powered full-stack Resume Builder that allows users to create, customize, and enhance resumes using Large Language Models.
 
@@ -6,19 +6,19 @@ An AI-powered full-stack Resume Builder that allows users to create, customize, 
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🧠 **AI-powered Content Enhancement:** Automatically improve resume descriptions using LLMs.
-* 📄 **Multiple Resume Templates:** Choose between Modern, Professional, and Minimal styles.
-* 🎨 **Clean and Responsive UI:** Built with Material UI (MUI) for a seamless experience.
-* 🔄 **Live Resume Preview:** See changes in real-time as you edit or generate content.
-* 📤 **Export to PDF:** High-quality PDF generation ready for job applications.
-* 🐳 **Dockerized Backend:** Simplified deployment and environment consistency.
-* ☁️ **Cloud Infrastructure:** Deployed on Vercel (Frontend) and Render (Backend).
+*  **AI-powered Content Enhancement:** Automatically improve resume descriptions using LLMs.
+*  **Multiple Resume Templates:** Choose between Modern, Professional, and Minimal styles.
+*  **Clean and Responsive UI:** Built with Material UI (MUI) for a seamless experience.
+*  **Live Resume Preview:** See changes in real-time as you edit or generate content.
+*  **Export to PDF:** High-quality PDF generation ready for job applications.
+*  **Dockerized Backend:** Simplified deployment and environment consistency.
+*  **Cloud Infrastructure:** Deployed on Vercel (Frontend) and Render (Backend).
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### 🔹 Frontend
 - **React (Vite)**
@@ -54,7 +54,7 @@ AI-Resume-Generator
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/73bc7188-1841-4cc6-928a-48247f035b16" />
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c304e743-c7fa-49c3-a589-463f72c70107" />
 
@@ -63,7 +63,7 @@ AI-Resume-Generator
 
 ## ⚙️ Environment Variables
 
-### 🔐 Backend (Render)
+###  Backend (Render)
 Set this in **Render → Environment → Add Environment Variable**:
 `GROQ_API_KEY=your_secret_key_here`
 
@@ -73,7 +73,7 @@ spring.application.name=ai-resume-builder
 groq.api.key=${GROQ_API_KEY}
 ```
 
-### 🌍 Frontend (Vercel)
+###  Frontend (Vercel)
 
 Set in **Vercel → Project Settings → Environment Variables**:
 
@@ -84,7 +84,7 @@ Example:
 
 ---
 
-## 🛠️ Local Setup Guide
+##  Local Setup Guide
 
 ### 1️⃣ Clone Repository
 ```bash
@@ -104,7 +104,7 @@ cd ../frontend
 npm install
 npm run dev
 ```
-## 🚀 Deployment Links
+##  Deployment Links
 
 * 🌐 **Frontend (Vercel):** [https://ai-resume-generator-amber.vercel.app/](https://ai-resume-generator-amber.vercel.app/)
 * 🔗 **Backend (Render):** [https://ai-resume-generator-fhhn.onrender.com](https://ai-resume-generator-fhhn.onrender.com)
